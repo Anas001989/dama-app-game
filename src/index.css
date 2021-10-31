@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home {
+  left: 50%;
+  position: fixed;
+  top: 5%;
+}
+.home-link{
+  text-transform:uppercase ;
+}
