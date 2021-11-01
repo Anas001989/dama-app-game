@@ -3,10 +3,12 @@ import Board from "./pages/Board";
 import Home from "./pages/Home";
 import Settings from "./pages/Settings";
 import Layout from "./components/layout/Layout";
+import backg from "./images/bg/wooden_bg.jpg";
 
 function App() {
   return (
-    <div>
+    <div className="base">
+      <img className="bg" src={backg}></img>
        <Route path="/" exact>
           <Home />
         </Route>

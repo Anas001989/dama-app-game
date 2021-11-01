@@ -23,24 +23,24 @@ function Home() {
           <Settings />
         </Route>
       */}
-      <li>
-        <Link className="home-link" to="/play-with-device">play with device</Link>
-      </li>
-      <li>
+      <div>
+        <Link to="/play-with-device">play with device</Link>
+      </div>
+      <div>
         <Link to="/play-online">Board</Link>
-      </li>
-      <li>
+      </div>
+      <div>
         <Link to="/two-players">Board</Link>
-      </li>
-      <li>
+      </div>
+      <div>
         <Link to="/demo">Board</Link>
-      </li>
-      <li>
+      </div>
+      <div>
         <Link to="/settings">Board</Link>
-      </li>
-      <li>
+      </div>
+      <div>
         <Link to="/info">Board</Link>
-      </li>
+      </div>
     </div>
   );
 }
